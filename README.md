@@ -11,7 +11,7 @@ user's personal energy profile and the Five Elements framework.
 Built for agentic workflows: trip planning, product launches, content calendars,
 interview/meeting scheduling, negotiation prep, and relationship/family timing.
 
-- **Homepage:** https://intentions.me
+- **Homepage:** https://www.intentions.me
 - **MCP endpoint:** `https://mcp.intentions.me/mcp` (Streamable HTTP)
 
 ---
@@ -50,7 +50,7 @@ All timing inputs must fall within `currentYear − 1 … currentYear + 1`.
 
 The server is **remote** (Streamable HTTP) — nothing to install or self-host.
 
-1. Create an account at https://intentions.me
+1. Create an account at https://www.intentions.me
 2. Generate an API key from your account page (format: `itm_…`)
 3. Add the server to your MCP client using the config below
 
@@ -87,7 +87,7 @@ Every request authenticates with a Bearer API key in the `Authorization` header:
 Authorization: Bearer itm_0123456789abcdef0123456789abcdef
 ```
 
-Keys are issued per account at https://intentions.me/account. Treat the key like a
+Keys are issued per account at https://www.intentions.me/account. Treat the key like a
 password — it carries your quota and your stored energy profile.
 
 ---
@@ -101,14 +101,14 @@ password — it carries your quota and your stored energy profile.
 | Weekly / yearly charts | ✓ | ✓ |
 
 The free tier is enough to evaluate the server end-to-end. See
-https://intentions.me/pricing for current Pro pricing.
+https://www.intentions.me/pricing for current Pro pricing.
 
 ---
 
 ## Links
 
-- **Homepage:** https://intentions.me
-- **Pricing:** https://intentions.me/pricing
+- **Homepage:** https://www.intentions.me
+- **Pricing:** https://www.intentions.me/pricing
 
 ---
 

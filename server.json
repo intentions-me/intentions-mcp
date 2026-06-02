@@ -4,7 +4,7 @@
   "title": "Intentions MCP Server",
   "description": "Personalized timing intelligence for AI agents — ask 'should I do X on this date?'",
   "version": "0.1.0",
-  "websiteUrl": "https://intentions.me",
+  "websiteUrl": "https://www.intentions.me",
   "repository": {
     "url": "https://github.com/intentions-me/intentions-mcp",
     "source": "github"
@@ -16,7 +16,7 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer API key (format: itm_...). Generate one at https://intentions.me/account",
+          "description": "Bearer API key (format: itm_...). Generate one at https://www.intentions.me/account",
           "isRequired": true,
           "isSecret": true
         }
