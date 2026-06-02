@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.intentions-me/intentions-mcp",
+  "title": "Intentions MCP Server",
+  "description": "Personalized timing intelligence for AI agents — ask 'should I do X on this date?'",
+  "version": "0.1.0",
+  "websiteUrl": "https://intentions.me",
+  "repository": {
+    "url": "https://github.com/intentions-me/intentions-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.intentions.me/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer API key (format: itm_...). Generate one at https://intentions.me/account",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
